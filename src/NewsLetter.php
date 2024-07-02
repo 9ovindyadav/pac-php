@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Govind;
 
-class NewsLetter implements SplSubject
+class NewsLetter implements \SplSubject
 {
     private array $observers = [];
     private string $content;

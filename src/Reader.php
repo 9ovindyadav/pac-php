@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Govind;
 
-class Reader implements SplObserver
+class Reader implements \SplObserver
 {
     public function __construct(private string $name)
     {
